@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Guitar Landing Page</title>
+        <link rel="stylesheet" href="styles.css"/>
+    </head>
+<body>
+<!-- Header / Navbar -->
+<header id="header">
+<nav id="nav-bar">
+    <div class="logo">GuitarX</div>
+    <ul>
+    <li><a href="#home" class="nav-link">Home</a></li>
+    <li><a href="#features" class="nav-link">Features</a></li>
+    <li><a href="#specs" class="nav-link">Specifications</a></li>
+    <li><a href="#reviews" class="nav-link">Reviews</a></li>
+    <li><a href="#contact" class="nav-link">Contact</a></li>
+    </ul>
+    <button id="darkModeToggle">🌙</button>
+</nav>
+</header>
+
+<!-- Hero Section -->
+<section id="home" class="hero-section reveal">
+<div class="hero-overlay"></div>
+<div class="hero-content">
+    <h1>Discover the Ultimate Guitar</h1>
+    <p>Experience the best sound and quality with our premium guitar.</p>
+    <a href="#contact" class="btn">Buy Now</a>
+</div>
+</section>
+
+<!-- Product Gallery -->
+<section id="gallery" class="section reveal">
+<h2>Guitar Gallery</h2>
+<div class="gallery-container">
+<img src="https://images.unsplash.com/photo-1511379938547-c1f69419868d" alt="Guitar 1" class="gallery-img">
+<img src="https://images.pexels.com/photos/1751731/pexels-photo-1751731.jpeg" alt="Guitar 2" class="gallery-img">
+<img src="https://www.mi.edu/wp-content/uploads/2018/12/Guitar-History-How-the-Guitar-has-Evolved.jpg" alt="Guitar 3" class="gallery-img">
+<img src="https://media.ipassio.com/media/ckeditor_image/2022/12/05/guitar.jpg" alt="Guitar 4" class="gallery-img">
+</div>
+</section>
+
+<!-- Lightbox Modal -->
+<div id="lightbox" class="lightbox">
+<span class="close">&times;</span>
+<img class="lightbox-content" id="lightbox-img">
+<button class="prev">❮</button>
+<button class="next">❯</button>
+</div>
+
+<!-- Features -->
+<section id="features" class="section reveal">
+<h2>Features</h2>
+<div class="features-container">
+    <div class="feature-card">
+    <h3>High-Quality Sound</h3>
+    <p>Rich, vibrant tones that bring your music to life.</p>
+    </div>
+    <div class="feature-card">
+    <h3>Elegant Design</h3>
+    <p>A sleek body that looks as good as it sounds.</p>
+    </div>
+    <div class="feature-card">
+    <h3>Durability</h3>
+    <p>Made from premium materials for long-lasting performance.</p>
+    </div>
+</div>
+</section>
+
+<!-- Specifications -->
+<section id="specs" class="section reveal">
+<h2>Specifications</h2>
+<div class="specs-grid">
+    <div><strong>Body:</strong> Solid Mahogany</div>
+    <div><strong>Neck:</strong> Maple</div>
+    <div><strong>Fingerboard:</strong> Rosewood</div>
+    <div><strong>Pickups:</strong> Humbucker</div>
+    <div><strong>Finish:</strong> Glossy</div>
+</div>
+</section>
+
+<!-- Reviews -->
+<section id="reviews" class="section reveal">
+<h2>Customer Reviews</h2>
+<div class="review-carousel">
+    <div class="review-card">
+    <h3>John Doe</h3>
+    <p>"This guitar has an amazing sound quality. I'm very satisfied!"</p>
+    </div>
+    <div class="review-card">
+    <h3>Jane Smith</h3>
+    <p>"Beautiful design and excellent performance. Highly recommend!"</p>
+    </div>
+    <div class="review-card">
+    <h3>Mike Johnson</h3>
+    <p>"Best guitar I've ever owned. Worth every penny!"</p>
+    </div>
+</div>
+</section>
+
+<!-- Contact -->
+<section id="contact" class="section reveal">
+<h2>Contact Us</h2>
+<p>For inquiries and purchases, reach us at:</p>
+<p><a href="mailto:support@guitarx.com">support@guitarx.com</a></p>
+
+<form id="form" action="https://www.freecodecamp.com/email-submit">
+    <input type="email" id="email" placeholder="Enter your email" name="email" required>
+    <button type="submit" id="submit">Subscribe</button>
+</form>
+
+<div class="socials">
+    <a href="#">📘</a>
+    <a href="#">🐦</a>
+    <a href="#">📸</a>
+    <a href="#">▶️</a>
+</div>
+</section>
+
+<!-- Scroll to Top Button -->
+<button id="scrollTopBtn">⬆️</button>
+
+<!-- Footer -->
+<footer class="footer">
+    <p>&copy; <span id="year"></span> Ankcris Letada. All rights reserved.</p>
+</footer>
+<script src="script.js"></script>
+</body>
+</html>
