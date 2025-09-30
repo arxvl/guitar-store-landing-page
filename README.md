@@ -1,7 +1,6 @@
-# Guitar Landing Page
+# Guitar Store Landing Page
 
 A modern and responsive landing page for showcasing a premium guitar.  
-It highlights product features, specifications, customer reviews, and includes a contact form, footer with dynamic year, and a dark/light mode toggle.
 
 ---
 
