@@ -29,8 +29,3 @@ The page includes a theme toggle button that allows users to switch between **Da
 
 ## 📷 Preview
 https://guitar-store-landing-page.vercel.app/
-
-
-## 📩 Contact
-Created by **Ankcris Letada**  
-© [Current Year] Ankcris Letada. All rights reserved.
