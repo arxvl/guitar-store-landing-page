@@ -27,5 +27,5 @@ The page includes a theme toggle button that allows users to switch between **Da
 
 ---
 
-## 📷 Preview
+## Preview
 https://guitar-store-landing-page.vercel.app/
